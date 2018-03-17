@@ -1,6 +1,6 @@
 {
   "name": "stocked",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Demetrius Shargani",
   "private": true,
   "description": "Stock watching dashboard",
