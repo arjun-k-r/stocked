@@ -8,7 +8,7 @@ let logger = require('../bin/logger');
 let router = express.Router();
 
 router.get('/', function(req, res) {
-  logger.info('Returning home to', req.connection.remoteAddress)
+  logger.info('Returning index to', req.connection.remoteAddress)
   res.render('index');
 });
 

@@ -1,13 +1,17 @@
 'use strict';
 
-var React = require('react');
+let React = require('react');
+let StockeLayout = require('./base');
 
-
-class HelloMessage extends React.Component {
+class StockedHome extends React.Component {
   render() {
-    return <div>Hello World!</div>;
+    return (
+      <StockeLayout pageTitle='Home'>
+        <h3 className='center-align'>Welcome to Stocked!</h3>
+        {/** TODO actual home page */}
+      </StockeLayout>
+    );
   }
 }
 
-
-module.exports = HelloMessage;
+module.exports = StockedHome;
